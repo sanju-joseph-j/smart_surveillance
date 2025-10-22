@@ -28,13 +28,13 @@ import urllib.parse
 from urllib.request import urlopen
 import webbrowser
 import argparse
-import mysql.connector
+# import mysql.connector
 
 # --- Deep Learning imports ---
-from tensorflow.keras.datasets import cifar10
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from tensorflow.keras.optimizers import SGD
+# from tensorflow.keras.datasets import cifar10
+# from tensorflow.keras.models import Sequential
+# from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+# from tensorflow.keras.optimizers import SGD
 
 
 # mydb = mysql.connector.connect(
@@ -1109,7 +1109,7 @@ def view_photo():
 
 
 ###CNN Classification
-def CNN():
+# def CNN():
     #Lets start by loading the Cifar10 data
     (X, y), (X_test, y_test) = cifar10.load_data()
 
