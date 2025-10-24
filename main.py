@@ -22,7 +22,7 @@ import shutil
 import imagehash
 import PIL.Image
 from PIL import Image
-from PIL import ImageTk
+# from PIL import ImageTk
 import urllib.request
 import urllib.parse
 from urllib.request import urlopen
